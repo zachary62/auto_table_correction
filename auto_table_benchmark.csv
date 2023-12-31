@@ -1,0 +1,30 @@
+test_name,alternative_answer,type_of_ambiguity
+explode_test2,"[{'operator': 'stack', 'stack_start_idx': 3, 'stack_end_idx': 5}, {'operator': 'explode', 'explode_column_idx': 10}]",Homogeneity
+explode_test10,"[{'operator': 'stack', 'stack_start_idx': 2, 'stack_end_idx': 3}]",Explode + Homogeneity
+explode_test14,"[{'operator': 'stack', 'stack_start_idx': 2, 'stack_end_idx': 7}, {'operator': 'explode', 'explode_column_idx': 1}]",Homogeneity
+explode_test32,[],Explode
+explode_test36,"[{'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 2}, {'operator': 'explode', 'explode_column_idx': 4}]",Homogeneity
+explode_test37,[],Explode
+explode_test39,"[{'operator': 'stack', 'stack_start_idx': 2, 'stack_end_idx': 4}, {'operator': 'explode', 'explode_column_idx': 5}]",Homogeneity
+explode_test42,"[{'operator': 'stack', 'stack_start_idx': 2, 'stack_end_idx': 4}, {'operator': 'explode', 'explode_column_idx': 5}]",Homogeneity
+explode_test45,"[{'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 3}, {'operator': 'explode', 'explode_column_idx': 4}]",Homogeneity
+explode_test47,[],Explode
+explode_test48,"[{'operator': 'stack', 'stack_start_idx': 0, 'stack_end_idx': 1}]",Explode + Homogeneity
+ffill_test10,"[{'operator': 'ffill', 'ffill_end_idx': 0}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 5}]",Homogeneity
+ffill_test14,"[{'operator': 'ffill', 'ffill_end_idx': 0}, {'operator': 'stack', 'stack_start_idx': 3, 'stack_end_idx': 8}, {'operator': 'explode', 'explode_column_idx': 7}]",Explode + Homogeneity
+subtitle_test3,"[{'operator': 'subtitle'}, {'operator': 'stack', 'stack_start_idx': 7, 'stack_end_idx': 13}]",Homogeneity
+subtitle_test7,"[{'operator': 'subtitle'}, {'operator': 'stack', 'stack_start_idx': 7, 'stack_end_idx': 13}]",Homogeneity
+subtitle_test10,"[{'operator': 'subtitle'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 3}]",Homogeneity
+subtitle_test11,"[{'operator': 'subtitle'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 7}]",Homogeneity
+subtitle_test16,"[{'operator': 'subtitle'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 4}]",Homogeneity
+transpose_test6,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 15, 'stack_end_idx': 41}]",Homogeneity
+transpose_test10,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 0, 'stack_end_idx': 2}]",Homogeneity
+transpose_test11,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 4, 'stack_end_idx': 8}]",Homogeneity
+transpose_test13,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 2, 'stack_end_idx': 5}]",Homogeneity
+transpose_test15,"[{'operator': 'transpose'}, {'operator': 'wide_to_long', 'wide_to_long_start_idx': 5, 'wide_to_long_end_idx': 12}]",Homogeneity
+transpose_test16,[],Transpose
+transpose_test25,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 13, 'stack_end_idx': 18}, {'operator': 'explode', 'explode_column_idx': 7}]",Explode + Homogeneity
+stack_test3,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 4}]",Homogeneity
+stack_test23,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 10}]",Transpose
+stack_test48,"[{'operator': 'transpose'}, {'operator': 'stack', 'stack_start_idx': 1, 'stack_end_idx': 8}]",Transpose
+multistep_test9,"[{'operator': 'ffill', 'ffill_end_idx': 1}]",Explode
